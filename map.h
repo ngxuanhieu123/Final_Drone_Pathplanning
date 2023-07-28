@@ -47,7 +47,7 @@ float calculate_J_cost(Node& A) {
 
 class Map
 {
-public:
+private:
     //float min_x, min_y, max_x, max_y;
     int Map_x;
     int Map_y;
@@ -56,12 +56,8 @@ public:
     Node* FinalNode;
     //std:: vector<std::vector<std::pair<float, float>>> real_Obs;
     std::vector<Node*> Obs;
-
-    Map(){
-
-    }
-    
-    Node* get_map(){
+public:
+    Map(int x, int y) : Map_x(x), Map_y(y) {
         point = new Node[Map_x * Map_y];
         for (int iy = 0; iy < Map_y; iy++) {
             for (int ix = 0; ix < Map_x; ix++) {
@@ -72,6 +68,5 @@ public:
         for (int i = 0; i < Map_x * Map_y; i++) {
             point[i].G_cost = std::numeric_limits<float>::infinity();
         }
-        return point;
     }
 };
