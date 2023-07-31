@@ -1,6 +1,0 @@
-/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles/rebuild_cache.dir
-/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles/edit_cache.dir
-/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles/main.dir
-/home/hieu/Final_Drone_Pathplanning/build/algorithm_library/CMakeFiles/rebuild_cache.dir
-/home/hieu/Final_Drone_Pathplanning/build/algorithm_library/CMakeFiles/edit_cache.dir
-/home/hieu/Final_Drone_Pathplanning/build/algorithm_library/CMakeFiles/algorithm.dir
