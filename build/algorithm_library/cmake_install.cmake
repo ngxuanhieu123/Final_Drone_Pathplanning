@@ -1,4 +1,4 @@
-# Install script for directory: /home/hieu/Final_Drone_Pathplanning/algorithm_library
+# Install script for directory: /home/drone/pathplanning_2/algorithm_library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hieu/Final_Drone_Pathplanning
+CMAKE_SOURCE_DIR = /home/drone/pathplanning_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hieu/Final_Drone_Pathplanning/build
+CMAKE_BINARY_DIR = /home/drone/pathplanning_2/build
 
 # Include any dependencies generated for this target.
 include algorithm_library/CMakeFiles/algorithm.dir/depend.make
@@ -59,48 +59,62 @@ include algorithm_library/CMakeFiles/algorithm.dir/flags.make
 
 algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.o: algorithm_library/CMakeFiles/algorithm.dir/flags.make
 algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.o: ../algorithm_library/src/a_star.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.o"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/a_star.cpp.o -c /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/a_star.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drone/pathplanning_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.o"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/a_star.cpp.o -c /home/drone/pathplanning_2/algorithm_library/src/a_star.cpp
 
 algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/a_star.cpp.i"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/a_star.cpp > CMakeFiles/algorithm.dir/src/a_star.cpp.i
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drone/pathplanning_2/algorithm_library/src/a_star.cpp > CMakeFiles/algorithm.dir/src/a_star.cpp.i
 
 algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/a_star.cpp.s"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/a_star.cpp -o CMakeFiles/algorithm.dir/src/a_star.cpp.s
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drone/pathplanning_2/algorithm_library/src/a_star.cpp -o CMakeFiles/algorithm.dir/src/a_star.cpp.s
 
 algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.o: algorithm_library/CMakeFiles/algorithm.dir/flags.make
 algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.o: ../algorithm_library/src/convert_map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.o"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/convert_map.cpp.o -c /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/convert_map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drone/pathplanning_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.o"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/convert_map.cpp.o -c /home/drone/pathplanning_2/algorithm_library/src/convert_map.cpp
 
 algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/convert_map.cpp.i"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/convert_map.cpp > CMakeFiles/algorithm.dir/src/convert_map.cpp.i
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drone/pathplanning_2/algorithm_library/src/convert_map.cpp > CMakeFiles/algorithm.dir/src/convert_map.cpp.i
 
 algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/convert_map.cpp.s"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/convert_map.cpp -o CMakeFiles/algorithm.dir/src/convert_map.cpp.s
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drone/pathplanning_2/algorithm_library/src/convert_map.cpp -o CMakeFiles/algorithm.dir/src/convert_map.cpp.s
 
 algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o: algorithm_library/CMakeFiles/algorithm.dir/flags.make
 algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o: ../algorithm_library/src/path_smoothing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o -c /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/path_smoothing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drone/pathplanning_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o -c /home/drone/pathplanning_2/algorithm_library/src/path_smoothing.cpp
 
 algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/path_smoothing.cpp.i"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/path_smoothing.cpp > CMakeFiles/algorithm.dir/src/path_smoothing.cpp.i
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drone/pathplanning_2/algorithm_library/src/path_smoothing.cpp > CMakeFiles/algorithm.dir/src/path_smoothing.cpp.i
 
 algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/path_smoothing.cpp.s"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hieu/Final_Drone_Pathplanning/algorithm_library/src/path_smoothing.cpp -o CMakeFiles/algorithm.dir/src/path_smoothing.cpp.s
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drone/pathplanning_2/algorithm_library/src/path_smoothing.cpp -o CMakeFiles/algorithm.dir/src/path_smoothing.cpp.s
+
+algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.o: algorithm_library/CMakeFiles/algorithm.dir/flags.make
+algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.o: ../algorithm_library/src/necessary_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/drone/pathplanning_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.o"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/algorithm.dir/src/necessary_function.cpp.o -c /home/drone/pathplanning_2/algorithm_library/src/necessary_function.cpp
+
+algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/algorithm.dir/src/necessary_function.cpp.i"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/drone/pathplanning_2/algorithm_library/src/necessary_function.cpp > CMakeFiles/algorithm.dir/src/necessary_function.cpp.i
+
+algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/algorithm.dir/src/necessary_function.cpp.s"
+	cd /home/drone/pathplanning_2/build/algorithm_library && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/drone/pathplanning_2/algorithm_library/src/necessary_function.cpp -o CMakeFiles/algorithm.dir/src/necessary_function.cpp.s
 
 # Object files for target algorithm
 algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/src/a_star.cpp.o" \
 "CMakeFiles/algorithm.dir/src/convert_map.cpp.o" \
-"CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o"
+"CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o" \
+"CMakeFiles/algorithm.dir/src/necessary_function.cpp.o"
 
 # External object files for target algorithm
 algorithm_EXTERNAL_OBJECTS =
@@ -108,11 +122,12 @@ algorithm_EXTERNAL_OBJECTS =
 algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/src/a_star.cpp.o
 algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/src/convert_map.cpp.o
 algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o
+algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/src/necessary_function.cpp.o
 algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/build.make
 algorithm_library/libalgorithm.a: algorithm_library/CMakeFiles/algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libalgorithm.a"
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean_target.cmake
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/drone/pathplanning_2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libalgorithm.a"
+	cd /home/drone/pathplanning_2/build/algorithm_library && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean_target.cmake
+	cd /home/drone/pathplanning_2/build/algorithm_library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 algorithm_library/CMakeFiles/algorithm.dir/build: algorithm_library/libalgorithm.a
@@ -120,10 +135,10 @@ algorithm_library/CMakeFiles/algorithm.dir/build: algorithm_library/libalgorithm
 .PHONY : algorithm_library/CMakeFiles/algorithm.dir/build
 
 algorithm_library/CMakeFiles/algorithm.dir/clean:
-	cd /home/hieu/Final_Drone_Pathplanning/build/algorithm_library && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean.cmake
+	cd /home/drone/pathplanning_2/build/algorithm_library && $(CMAKE_COMMAND) -P CMakeFiles/algorithm.dir/cmake_clean.cmake
 .PHONY : algorithm_library/CMakeFiles/algorithm.dir/clean
 
 algorithm_library/CMakeFiles/algorithm.dir/depend:
-	cd /home/hieu/Final_Drone_Pathplanning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hieu/Final_Drone_Pathplanning /home/hieu/Final_Drone_Pathplanning/algorithm_library /home/hieu/Final_Drone_Pathplanning/build /home/hieu/Final_Drone_Pathplanning/build/algorithm_library /home/hieu/Final_Drone_Pathplanning/build/algorithm_library/CMakeFiles/algorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/drone/pathplanning_2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/drone/pathplanning_2 /home/drone/pathplanning_2/algorithm_library /home/drone/pathplanning_2/build /home/drone/pathplanning_2/build/algorithm_library /home/drone/pathplanning_2/build/algorithm_library/CMakeFiles/algorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : algorithm_library/CMakeFiles/algorithm.dir/depend
 

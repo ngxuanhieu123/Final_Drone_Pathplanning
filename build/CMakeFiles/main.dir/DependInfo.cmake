@@ -4,17 +4,24 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hieu/Final_Drone_Pathplanning/main.cpp" "/home/hieu/Final_Drone_Pathplanning/build/CMakeFiles/main.dir/main.cpp.o"
+  "/home/drone/pathplanning_2/main.cpp" "/home/drone/pathplanning_2/build/CMakeFiles/main.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "OPENSSL=1"
+  )
+
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../../rapidjson/include"
+  "../algorithm_library/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hieu/Final_Drone_Pathplanning/build/algorithm_library/CMakeFiles/algorithm.dir/DependInfo.cmake"
+  "/home/drone/pathplanning_2/build/algorithm_library/CMakeFiles/algorithm.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

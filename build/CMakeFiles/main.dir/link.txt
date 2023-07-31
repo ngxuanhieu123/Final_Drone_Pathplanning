@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main  algorithm_library/libalgorithm.a 
+/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main  -Wl,-rpath,/usr/local/lib algorithm_library/libalgorithm.a /usr/local/lib/libpaho-mqttpp3.so.1.2.0 /usr/local/lib/libpaho-mqtt3as.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread 

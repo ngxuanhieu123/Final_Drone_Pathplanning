@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_FLAGS =  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DOPENSSL=1
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/drone/pathplanning_2/../rapidjson/include -I/home/drone/pathplanning_2/algorithm_library/include 
 
