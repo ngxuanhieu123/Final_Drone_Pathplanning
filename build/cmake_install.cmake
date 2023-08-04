@@ -1,4 +1,4 @@
-# Install script for directory: /home/drone/pathplanning_2
+# Install script for directory: /home/hieu/Final_Drone_Pathplanning
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/drone/pathplanning_2/build/algorithm_library/cmake_install.cmake")
+  include("/home/hieu/Final_Drone_Pathplanning/build/algorithm_library/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/drone/pathplanning_2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hieu/Final_Drone_Pathplanning/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

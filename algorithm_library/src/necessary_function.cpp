@@ -1,5 +1,11 @@
 #include<iostream>
+
+#include <rapidjson/document.h>
+#include <rapidjson/writer.h>
+#include <rapidjson/stringbuffer.h>
+
 #include"map.h"
+
 float update_G_cost(Node& A, Node& B)
 {
     int x = A.x;
@@ -25,3 +31,21 @@ float calculate_J_cost(Node& A) {
     return J;
 }
 
+bool validate_received_mess(const std::string &payload){
+    rapidjson::Document document;
+    if (document.Parse(payload.c_str()).HasParseError()) {
+        return false;      
+    }
+    if(!document.HasMember("pathID") || !document["pathID"].IsInt()){
+        return false;
+    }
+    if(!document.HasMember("start") || !document["start"].IsArray() || document["start"].Size()!=2){
+        return false;
+    }
+    if(!document.HasMember("final") || !document["final"].IsArray() || document["final"].Size()!=2){
+        return false;
+    }
+    else{
+        return true;
+    }
+}

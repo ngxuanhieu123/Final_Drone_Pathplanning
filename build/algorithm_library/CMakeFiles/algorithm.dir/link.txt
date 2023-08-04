@@ -1,2 +1,2 @@
-/usr/bin/ar qc libalgorithm.a  CMakeFiles/algorithm.dir/src/a_star.cpp.o CMakeFiles/algorithm.dir/src/convert_map.cpp.o CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o CMakeFiles/algorithm.dir/src/necessary_function.cpp.o
+/usr/bin/ar qc libalgorithm.a  CMakeFiles/algorithm.dir/src/a_star.cpp.o CMakeFiles/algorithm.dir/src/convert_map.cpp.o CMakeFiles/algorithm.dir/src/necessary_function.cpp.o
 /usr/bin/ranlib libalgorithm.a

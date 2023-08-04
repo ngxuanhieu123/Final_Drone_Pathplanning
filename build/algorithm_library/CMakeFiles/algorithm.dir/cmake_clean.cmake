@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/algorithm.dir/src/a_star.cpp.o"
   "CMakeFiles/algorithm.dir/src/convert_map.cpp.o"
   "CMakeFiles/algorithm.dir/src/necessary_function.cpp.o"
-  "CMakeFiles/algorithm.dir/src/path_smoothing.cpp.o"
   "libalgorithm.a"
   "libalgorithm.pdb"
 )

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/drone/pathplanning_2/../rapidjson/include -I/home/drone/pathplanning_2/algorithm_library/include 
+CXX_INCLUDES = -I/home/hieu/Final_Drone_Pathplanning/../rapidjson/include -I/home/hieu/Final_Drone_Pathplanning/algorithm_library/include 
 
